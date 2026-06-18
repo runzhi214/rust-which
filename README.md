@@ -13,25 +13,24 @@ Inspired by the GNU which utility.
 - Returns exit code 1 if any command is not found (consistent with GNU which).
 
 ## Usage
-
-`ash
-# Locate a command
+```
+### Locate a command
 which notepad
 
-# Locate multiple commands at once
+### Locate multiple commands at once
 which git cargo python
 
-# Check a command with an explicit extension
+### Check a command with an explicit extension
 which node.exe
 
-# Use a direct path
+### Use a direct path
 which .\myapp.exe
 
-# Show help
+### Show help
 which --help
-# or
+
 which -h
-`
+```
 
 ### Exit Codes
 
@@ -42,16 +41,20 @@ which -h
 
 ## Building
 
-`ash
+```
 # Build in release mode
 cargo build --release
 
 # The binary will be at target/release/which.exe
-`
+```
 
 ## Requirements
 
 - Rust 2021 edition or later (stable toolchain recommended)
+
+## AI Declaration
+
+- This Project contains AI generated code.
 
 ## License
 
